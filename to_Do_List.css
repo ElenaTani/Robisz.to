@@ -1,0 +1,71 @@
+body {
+    background-color: lavender;
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    border-radius: 8px;
+  }
+
+  
+  .create-task-block, .filter-task-block {
+    padding: 15px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #ffffff;
+  }
+
+
+  .task-title {
+    margin-bottom: 10px;
+    font-size: 1.5em;
+    color: #333;
+  }
+
+  
+  .input-field {
+    margin-bottom: 15px;
+  }
+
+  .task-input, .filter-input {
+    width: 100%;
+    padding: 10px;
+    font-size: 1em;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+
+ 
+  .btn {
+    padding: 10px 20px;
+    font-size: 1em;
+    cursor: pointer;
+    border: none;
+    border-radius: 4px;
+    color: #fff;
+  }
+
+  .btn-primary {
+    background-color: #007bff;
+  }
+
+  .btn-danger {
+    background-color: #dc3545;
+    margin-top: 10px;
+  }
+
+  
+  .collection {
+    list-style-type: none;
+    padding: 0;
+  }
+
+  .collection li {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+  }
