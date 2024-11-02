@@ -9,7 +9,7 @@ body {
     font-family: Arial, sans-serif;
     background-color: #f4f4f9;
     border-radius: 8px;
-  }
+}
 
   
   .create-task-block, .filter-task-block {
@@ -25,6 +25,7 @@ body {
     margin-bottom: 10px;
     font-size: 1.5em;
     color: #333;
+    text-align: center;
   }
 
   
@@ -68,4 +69,39 @@ body {
   .collection li {
     padding: 10px;
     border-bottom: 1px solid #ddd;
+  }
+
+  li {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+    padding: 10px;
+  }
+  
+  .delete-item {
+    margin-right: 10px;
+    order: 1; 
+    cursor: pointer;
+  }
+
+  .edit-item {
+    margin-right: 10px;
+    order: -1;
+    cursor: pointer;
+  }
+
+  .create-task-form {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    width: 100%;
+    max-width: 600px;
+  }
+  
+  .input-field {
+    flex-grow: 1;
+  }
+  
+  .task-input {
+    width: 100%;
   }
